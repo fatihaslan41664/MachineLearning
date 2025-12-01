@@ -1,2 +1,28 @@
 naiva Bayes sınıflandırması daha dengesiz veri kümeleri için kullanılır atıyorum büyük bir veri kümem var ve 2 çeşit verim var 1. çeişitim bir daire etrafında
 2. çeşitim ise dairenin içine toplanmış şekilde gözüküyor bunu bu algoritma ile sınıflamam daha doğru olur
+
+decision tree
+verileri sürekli böler ve bir ağaç oluşturur ve sınıflandırır bu tree sınıflandırma için çok daha uygun sayısal tahminlerde baya dandik.
+ama burada da riskli çok bölersen maliyetli ve ezber tehlikesi az bölersende atıyorum bir grupta 6 kadın 4 erkek var 4 erkeği görmezden gelir 
+ve oranın tamamını kadın olarak döndürür.
+
+rassal tree
+birdan fazla decision tree çizer ve bunların ortalama veri değerlerini döndürür.
+
+gnb
+P(class∣x)=
+P(x)
+P(x∣class)⋅P(class)
+	​
+koşullu olsalık kullanılır
+
+confusion_matrix
+matrix oluşturur doğruyu yanlışı buradan çekebilrsin
+
+SVC
+support vector demektir iki tane yardımcı vektör çizip sistemi analiz eder
+
+KNeighborsClassifier
+bu da en yakın komşuya göre sınıflandırma çeşitidir oldukça etkili ve basittir atıyorum 3 komuşu ya bakarsın 2 si erkek 1 i kadın ise erkeksindir tam tersi ise kadınsındır.
+
+
