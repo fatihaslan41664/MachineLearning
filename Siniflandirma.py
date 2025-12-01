@@ -47,3 +47,48 @@ svc.fit(X_train, y_train)
 y_pred3 = svc.predict(X_test)
 cm3 = confusion_matrix(y_test, y_pred3)
 print(cm3)
+
+from sklearn.naive_bayes import GaussianNB
+GNB = GaussianNB()
+GNB.fit(X_train, y_train)
+y_pred4 = GNB.predict(X_test)
+cm4 = confusion_matrix(y_test, y_pred4)
+print(cm4)
+
+from sklearn.tree import DecisionTreeClassifier
+dtc = DecisionTreeClassifier(criterion='entropy')
+
+dtc.fit(X_train,y_train)
+y_pred5 = dtc.predict(X_test)
+
+cm5 = confusion_matrix(y_test, y_pred5)
+
+print(cm5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

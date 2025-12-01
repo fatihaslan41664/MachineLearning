@@ -1,0 +1,2 @@
+naiva Bayes sınıflandırması daha dengesiz veri kümeleri için kullanılır atıyorum büyük bir veri kümem var ve 2 çeşit verim var 1. çeişitim bir daire etrafında
+2. çeşitim ise dairenin içine toplanmış şekilde gözüküyor bunu bu algoritma ile sınıflamam daha doğru olur
