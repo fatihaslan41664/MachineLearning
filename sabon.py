@@ -83,3 +83,27 @@ print("SVC accuracy:", accuracy_score(y_test, y_pred3))
 print("GNB accuracy:", accuracy_score(y_test, y_pred4))
 print("Decision Tree accuracy:", accuracy_score(y_test, y_pred5))
 print("Random Forest accuracy:", accuracy_score(y_test, y_pred6))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

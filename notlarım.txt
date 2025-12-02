@@ -25,4 +25,24 @@ support vector demektir iki tane yardımcı vektör çizip sistemi analiz eder
 KNeighborsClassifier
 bu da en yakın komşuya göre sınıflandırma çeşitidir oldukça etkili ve basittir atıyorum 3 komuşu ya bakarsın 2 si erkek 1 i kadın ise erkeksindir tam tersi ise kadınsındır.
 
+KÜMELEMELER
+k-means kümelemesi
+burada kullancııdan bir değer alınır o değere göre uzayda rastgele kaç tane değer verdiyse o akdar nokta koyulur devamında atıyorum kullanıcıdan alınan veri 2 idi
+uzayda konulan rastgele 2 noktaya yakın veriler o kümeye dahil kabul edilir devamında her kümenin ağırlık merkezi alınır devamında ilk seçtiğim noktayı bu yere ötelerim 
+devamında tekrardan ek yakın veriler en yakın noktaya dahil edilen bir küme oluşturur bunu bu şekilde sistem kararlı hale gelene akdar yani ağırlık noktam ile 
+rastgele koyduğum referans doğruö aynı yere gelene kadar sistem tekrar eder kararlı hale geldiğinde işlem bitmiştir ilk noktalar rastgele seçildiği için 
+bağzı durumlarda risklidir. bunun için bağzı yöntemler geliştirilmiştir örneğin veritabanınmdaki verileri nokta olarak seçme bir yöntemdir fakat yüksek maliyetlidir.
+
+k-means ++ kümelenmesi
+
+bu kümelemede k-means ile başlar fakat ağırlık merkezlerine kaydırılmaz burada rastgele seçtiğim noktaya n diyorum n in kaydırılması verilere rastgele bir şekilde
+kaydıralabilir fakat en yüksek ihtimal en uzaktaki noktadır sürekli veri kümeleri en uzağa arttırılarak diğer noktalar başka kümelere kaydırılıp orada küme
+oluşturması sistemim için daha mı mantıklı olabilir diye kontrol edebilir
+
+bunların hala daha riski var çünkü kümeleri rastgele kullancıdan alıyorum bunun için WCSS kullanılır bu da bu restgeleliği engelleyip başka bir algoritma ile
+en optimum değişken sayısı tahmin edilir bu wcss aloritması rastgele noktalar koyarak sana bir grafik verir hangi sayıda değişken üreteceğini sen yorumlayabilirsin
+daha doğrusu bu wcss senin en doğru nokta sayısını hesaplamana yardımcı olur.
+
+
+
 
